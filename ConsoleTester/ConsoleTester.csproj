@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SD.LLBLGen.Pro.ORMSupportClasses, Version=5.3.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,11 +51,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LLBLGen\AdventureWorksLLBLGen.csproj">
-      <Project>{7309eb12-5d56-4f48-8549-54a2b26f595e}</Project>
+      <Project>{7309EB12-5D56-4F48-8549-54A2B26F595E}</Project>
       <Name>AdventureWorksLLBLGen</Name>
     </ProjectReference>
     <ProjectReference Include="..\LLBLGen\AdventureWorksLLBLGenDBSpecific.csproj">
-      <Project>{09c9069b-d71f-4af4-b060-9ecf691c4125}</Project>
+      <Project>{09C9069B-D71F-4AF4-B060-9ECF691C4125}</Project>
       <Name>AdventureWorksLLBLGenDBSpecific</Name>
     </ProjectReference>
   </ItemGroup>
